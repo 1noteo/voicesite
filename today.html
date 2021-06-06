@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <title>Jump to Next</title>
+  </head>
+  <body>
+    <input type="button" value="パスワードを入力して次のページへアクセスする" onclick="gate();">
+    <script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+</script>
+  </body>
+</html>
