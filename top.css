@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+  background-color: #d0e39b;
+}
+h1 {
+  color: #f5a500;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+nav {
+  font-size: large;
+}
+link1 {
+  font-size: x-large;
+}
